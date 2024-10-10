@@ -6,11 +6,11 @@
     "configurations": [
         {
             "name": "Rimworld Mod Project",
-            "type": "clr",
+            "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build dll",
             "args": [],
-            "program": "../../RimWorldWin64.exe",
+            "program": "../../RimWorldLinux",
             "cwd": "${workspaceFolder}",
             "console": "internalConsole",
             "internalConsoleOptions":"neverOpen",
