@@ -1,7 +1,5 @@
-echo off
+# remove unnecessary assemblies
+find . -type d -name 'Assemblies' -exec rm -f {}/* \;
 
-REM remove unnecessary assemblies
-DEL .\*\Assemblies\*.*
-
-REM build dll
+# build dll
 dotnet build .vscode
